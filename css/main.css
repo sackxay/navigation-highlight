@@ -1,0 +1,51 @@
+html {
+	box-sizing: border-box;
+  font-family: 'Sigmar One', cursive;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+	box-sizing:inherit;
+}
+
+header {
+  background-color: #ffe500;
+  padding: .2em .5em .3em;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #cc1465;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color:inherit;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: Georgia;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
