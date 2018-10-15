@@ -2,6 +2,7 @@ html {
 	box-sizing: border-box;
   font-family: 'Sigmar One', cursive;
   line-height: 1.5;
+  color: #2f2d13
 }
 
 *, *::before, *::after {
@@ -29,7 +30,11 @@ h2 {
   color: #b20953;
 }
 
-h2+p {
+img {
+  padding: .75em;
+}
+
+img+p {
   font-family: Georgia;
 }
 
