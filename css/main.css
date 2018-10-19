@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: "Sigmar One", cursive;
-  line-height: 1.5;
+  font-family: 'Georgia', cursive;
   color: #2f2d13;
+  border-width: 5px;
 }
 
 *, *::before, *::after {
@@ -11,7 +11,6 @@ html {
 
 header {
   background-color: #ffe500;
-  padding: .2em .5em .3em;
 }
 
 body {
@@ -19,6 +18,7 @@ body {
 }
 
 h1 {
+  font-family: "Sigmar One", cursive;
   margin: 0;
   text-align: center;
   color: #b20953;
@@ -26,27 +26,24 @@ h1 {
 }
 
 h2 {
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   color: #b20953;
 }
 
-h2 + p {
-  font-family: Georgia;
-}
-
 img {
   padding: .75em;
+  width: 100%;
+  display: block;
 }
 
-img + p {
-  font-family: Georgia;
+h2 + p {
+  line-height: 1.5;
 }
 
 .nav {
-  margin: 0;
   padding: 0;
   list-style-type: none;
-  text-align: center;
 }
 
 .nav li {
@@ -55,12 +52,11 @@ img + p {
 
 .nav a {
   color: white;
-  display: inline-block;
-  padding: .2em .5em .3em;
   background-color: #b2a212;
-  border-radius: 4px;
-  font-family: Georgia;
+  padding: .2em .5em .3em;
   text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 4px;
 }
 
 .nav a:hover {
@@ -68,10 +64,8 @@ img + p {
 }
 
 footer {
-  font-size: .75rem;
   text-align: center;
   background-color: #ffe500;
-  font-family: Georgia;
   padding: .75em;
 }
 
