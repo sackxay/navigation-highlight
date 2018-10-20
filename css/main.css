@@ -52,8 +52,7 @@ img + p {
 
 .nav {
   list-style-type: none;
-  margin: 0;
-  display: inline-block;
+  display: inline;
 }
 
 .nav li {
@@ -63,7 +62,7 @@ img + p {
 
 .nav a {
   display: inline-block;
-  padding: .2em .5em .3em;
+  padding: .3em .5em;
   color: white;
   background-color: #b2a212;
   text-decoration: none;
